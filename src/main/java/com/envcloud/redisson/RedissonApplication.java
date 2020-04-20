@@ -7,7 +7,10 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @MapperScan(value = "com.envcloud.redisson.repository")
 public class RedissonApplication {
-
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(RedissonApplication.class, args);
     }
