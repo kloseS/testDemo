@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestCacheController {
 
     private static final Logger log = LoggerFactory.getLogger(TestCacheController.class);
-
+    /**测试12312121*/
     private static final String USER_KEY = "USER_BUCKET_KEY::";
 
     private final RedissonClient redissonClient;
