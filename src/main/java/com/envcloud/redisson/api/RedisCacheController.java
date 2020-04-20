@@ -17,8 +17,6 @@ import javax.annotation.Resource;
 @RequestMapping(value = "redis")
 public class RedisCacheController {
 
-
-     /**测试*/
     private static final Logger log = LoggerFactory.getLogger(RedisCacheController.class);
 
     private static final String USER_KEY = "USER_BUCKET_KEY::";
