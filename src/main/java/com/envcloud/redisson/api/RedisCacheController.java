@@ -18,7 +18,7 @@ import javax.annotation.Resource;
 public class RedisCacheController {
 
 
-     /**测试123*/
+     /**测试12312121*/
     private static final Logger log = LoggerFactory.getLogger(RedisCacheController.class);
 
     private static final String USER_KEY = "USER_BUCKET_KEY::";
